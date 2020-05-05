@@ -66,7 +66,8 @@ body{
 #title,
 #title2,
 #title3,
-#title4{
+#title4,
+#title5{
     font-size: 30px;
     font-weight: 700;
     display: flex;
@@ -236,7 +237,9 @@ body{
 .containers .bo .imgBox img
 {
 	max-width: 100%;
-	transition: transform 2s;
+    transition: transform 2s;
+    width: 400px;
+    height: 500px;
 }
 .containers .bo:hover .imgBox img
 {
@@ -294,4 +297,51 @@ body{
     border-radius: 50%;
     margin-left: -12px;
     padding-right: 12px;
+    object-fit: cover;
 }
+.second__contents img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.adidas {
+    float: right;
+}
+.seconds {
+    background-image: url(../images/1579210806_48-107.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: contrast(80%);
+}
+#button {
+    display: inline-block;
+    background-color: #0000;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s;
+    z-index: 1000;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  
