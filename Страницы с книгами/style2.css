@@ -1,0 +1,339 @@
+.content {
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    font-size: 25px;
+    max-width: 7000px;
+    display: flex;
+    justify-content: space-around;
+  }
+.search {
+    position: absolute;
+    width: 300px; 
+    height: 25px; 
+    left: 750px; 
+    right: 250px;  
+    text-align: center;
+    top: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+  }
+
+.books{
+    position:absolute;
+    text-align: center;
+    right: 1530px;
+    margin-top: 50px;
+    width: 220px;
+    height: 330px;
+}
+.books1{
+    position:absolute;
+    text-align: center;
+    right: 1230px;
+    margin-top: 50px;
+    width: 220px;
+}
+
+.books2{
+    position:absolute;
+    text-align: center;
+    right: 930px;
+    margin-top: 50px;
+    width: 220px;
+    height: 330px;
+}
+.books3{
+    position:absolute;
+    text-align: center;
+    right: 630px;
+    margin-top: 50px;
+    width: 220px;
+    height: 330px;
+}
+.books4{
+    position:absolute;
+    text-align: center;
+    right: 330px;
+    width: 220px;
+    margin-top: 50px;
+    height: 330px;
+}
+.books5{
+    position:absolute;
+    text-align: center;
+    right: 30px;
+    width: 220px;
+    margin-top: 50px;
+    height: 330px;
+}
+.books6{
+    position:absolute;
+    text-align: center;
+    right: 1530px;
+    margin-top: 500px;
+    width: 220px;
+    height: 330px;
+}
+.books7{
+    position:absolute;
+    text-align: center;
+    right: 1230px;
+    margin-top: 500px;
+    width: 220px;
+    height: 330px;
+}
+.books8{
+    position:absolute;
+    text-align: center;
+    right: 930px;
+    width: 220px;
+    margin-top: 500px;
+    height: 330px;
+}
+.books9{
+    position:absolute;
+    text-align: center;
+    right: 630px;
+    margin-top: 500px;
+    width: 220px;
+    height: 330px;
+}
+.books10{
+    position:absolute;
+    text-align: center;
+    right: 330px;
+    margin-top: 500px;
+    width: 220px;
+    height: 330px;
+}
+.books11{
+    position:absolute;
+    text-align: center;
+    right: 30px;
+    margin-top: 500px;
+    width: 220px;
+    height: 330px;
+}
+.mainbutton{
+    position: relative;
+    text-align: center;
+}
+.text-box1 {
+
+   margin-left: -1800px;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.whiteline{
+    background-color: white;
+  }
+  .text-box {
+
+    margin-left: 1200px;
+    margin-top: 20px;
+    text-align: center;
+ }
+ 
+ .btn:link,
+ .btn:visited {
+     text-transform: uppercase;
+     text-decoration: none;
+     padding: 15px 40px;
+     display: inline-block;
+     border-radius: 100px;
+     transition: all .2s;
+     position: absolute;
+ }
+ 
+ .btn:hover {
+     transform: translateY(-3px);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn:active {
+     transform: translateY(-1px);
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn-white {
+     background-color: #fff;
+     color: #777;
+ }
+ 
+ .btn::after {
+     content: "";
+     display: inline-block;
+     height: 100%;
+     width: 100%;
+     border-radius: 100px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+     transition: all .4s;
+ }
+ 
+ .btn-white::after {
+     background-color: #fff;
+ }
+ 
+ .btn:hover::after {
+     transform: scaleX(1.4) scaleY(1.6);
+     opacity: 0;
+ }
+ 
+ .btn-animated {
+     animation: moveInBottom 5s ease-out;
+     animation-fill-mode: backwards;
+ }
+ 
+ @keyframes moveInBottom {
+     0% {
+         opacity: 0;
+         transform: translateY(30px);
+     }
+ 
+     100% {
+         opacity: 1;
+         transform: translateY(0px);
+     }
+ }
+ .text-box2 {
+
+    margin-left: -200px;
+    margin-top: 20px;
+    text-align: center;
+ }
+ 
+ .btn:link,
+ .btn:visited {
+     text-transform: uppercase;
+     text-decoration: none;
+     padding: 15px 40px;
+     display: inline-block;
+     border-radius: 100px;
+     transition: all .2s;
+     position: absolute;
+ }
+ 
+ .btn:hover {
+     transform: translateY(-3px);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn:active {
+     transform: translateY(-1px);
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn-white {
+     background-color: #fff;
+     color: #777;
+ }
+ 
+ .btn::after {
+     content: "";
+     display: inline-block;
+     height: 100%;
+     width: 100%;
+     border-radius: 100px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+     transition: all .4s;
+ }
+ 
+ .btn-white::after {
+     background-color: #fff;
+ }
+ 
+ .btn:hover::after {
+     transform: scaleX(1.4) scaleY(1.6);
+     opacity: 0;
+ }
+ 
+ .btn-animated {
+     animation: moveInBottom 5s ease-out;
+     animation-fill-mode: backwards;
+ }
+ 
+ @keyframes moveInBottom {
+     0% {
+         opacity: 0;
+         transform: translateY(30px);
+     }
+ 
+     100% {
+         opacity: 1;
+         transform: translateY(0px);
+     }
+ }
