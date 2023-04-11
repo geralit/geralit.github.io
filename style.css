@@ -1,0 +1,490 @@
+
+.content {
+  display: inline;
+  background-color: rgba(255, 255, 255, 0.89);
+  text-align: center;
+  font-size: 25px;
+  max-width: 7000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.back {
+  background-size: 100%;
+  justify-content: space-around;
+  display: table;
+  -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+  box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: auto;
+  background-position: center;
+  background-size: cover;
+  
+}
+.book {
+  justify-content: space-around;
+  border: 100px;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  width: 249px; 
+  height: 380px; 
+  left: 0; 
+  right: 0;  
+  text-align: center;
+  padding-top: 250px;
+}
+
+.button {
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px; 
+  height: 20px; 
+  left: 0; 
+  right: 0;  
+  text-align: center;
+  top: 800px;
+  display: inline-block;
+  background: #000000;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+.text {
+  position: absolute;
+  margin-left: auto;
+  width: 700px; 
+  height: 50px; 
+  left: 0; 
+  right: 50px;  
+  text-align: center;
+  top: 400px;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  font-size: 20px;
+}
+.Ak {
+  position: absolute;
+  margin-left: auto;
+  width: 700px; 
+  height: 50px; 
+  left: 0; 
+  right: 0;  
+  text-align: center;
+  top: 300px;
+  font-size: 25px;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  font-size: 20px;
+}
+.search {
+  position: absolute;
+  margin-left: auto;
+  width: 300px; 
+  height: 25px; 
+  left: 0; 
+  right: 250px;  
+  text-align: center;
+  top: 40px;
+  font-size: 25px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+.WN {
+  text-align: center;
+  margin-right: 70px;
+}
+.News {
+  justify-content: space-around;
+  border: 300px;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0; 
+  right: 0;  
+  text-align: center;
+  top: 150px;
+  font-size: 20px;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #242422, 2px 4px #222324, 3px 5px #222324;
+  color: white;
+}
+.page {
+  background-size: 100%;
+  justify-content: space-around;
+  display: table;
+  -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+  box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: auto;
+  background-position: center;
+  background-size: cover;
+}
+.books {
+  position: absolute;
+  margin-left: 100px;
+  width: auto; 
+  height: auto; 
+  left:  -40px; 
+  right: 0;  
+  text-align: right;
+  margin-top: 100px;
+  color: white;
+}
+.books1 {
+  position: absolute;
+  margin-left: 400px;
+  width: auto; 
+  height: auto; 
+  left:  0; 
+  right: 0;  
+  text-align: right;
+  margin-top: 100px;
+  color: white;
+}
+.books2 {
+  position: absolute;
+  margin-left: 800px;
+  width: auto; 
+  height: auto; 
+  left:  0; 
+  right: 0;  
+  text-align: right;
+  margin-top: 100px;
+  color: white;
+}
+.books3 {
+  position: absolute;
+  margin-left: 1200px;
+  width: auto; 
+  height: auto; 
+  left:  0; 
+  right: 0;  
+  text-align: right;
+  margin-top: 100px;
+  color: white;
+}
+.books4 {
+  position: absolute;
+  margin-left: 1600px; 
+  width: auto; 
+  height: auto; 
+  left:  0; 
+  right: 0;  
+  text-align: right;
+  margin-top: 100px;
+  color: white;
+}
+.books5 {
+  position: absolute;
+  width: 215px; 
+  height: 300px; 
+  left: 60px;
+  margin-top: 500px;
+}
+.books6{
+  position: absolute;
+  width: 215px; 
+  height: 300px;
+  left: 400px;
+  margin-top: 500px;
+}
+.books7{
+  position: absolute;
+  width: 215px; 
+  height: 300px;
+  right: 40px;
+  margin-top: 500px;
+}
+.books8{
+  position: absolute;
+  width: 215px; 
+  height: 300px;
+  right: 440px;
+  margin-top: 500px;
+}
+.books9{
+  position: absolute;
+  width: 215px; 
+  height: 300px;
+  right: 840px;
+  margin-top: 500px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+.container {
+  margin-top: 1380px;
+  width: 400px;
+  height: 400px;
+  top: 480px;
+  left: 900px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #eafa0d;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #ff9900;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #c9f01b;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 100;
+}
+.bottomlinks{
+  background-size: 100%;
+  background-color: white;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+}
+.vk{
+  position: absolute;
+  left: 230px;
+  background-color: white;
+  background-size: 100%;
+}
+.phone{
+  position: absolute;  
+  right: 280px;
+  top: 1950px;
+  background-color: white;
+}
+.mail{
+  position: absolute;
+  text-align: center;
+  left: 800px;
+  background-color: white;
+}
+.vkt{
+  position: absolute;
+  left: 240px;
+  top: 1900px;
+  background-color: white;
+}
+.mailt{
+  position: absolute;
+  left: 855px;
+  top: 1900px;
+  background-color: white;
+}
+.phonet{
+  position: absolute;
+  right: 290px;
+  background-color: white;
+  top: 1900px;
+}
+.whiteline{
+  background-color: rgb(255, 255, 255);
+}
+
+@keyframes phaseout {
+  0% {
+    opacity: 1;
+  }
+  30%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.books:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+.books1:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+.books2:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+.books3:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+.books4:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+.books5:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+.books6:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+.books7:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+.books8:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+.books9:hover{
+  animation: phaseout 2s;
+  animation-fill-mode:forwards
+}
+
+.gray {
+  position: absolute;
+  left: 60px;
+  top: 1107px;
+  width: 218px; 
+  height: 324px;
+}
+.gray1 {
+  position: absolute;
+  left: 400px;
+  top: 1107px;
+  width: 218px; 
+  height: 324px;
+}
+.gray2 {
+  position: absolute;
+  left: 800px;
+  top: 1107px;
+  width: 218px; 
+  height: 324px;
+}
+.gray3 {
+  position: absolute;
+  left: 1200px;
+  top: 1107px;
+  width: 218px; 
+  height: 324px;
+}
+.gray4 {
+  position: absolute;
+  left: 1600px;
+  top: 1107px;
+  width: 218px; 
+  height: 324px;
+}
+.gray5 {
+  position: absolute;
+  left: 60px;
+  top: 1504px;
+  width: 215px; 
+  height: 300px;
+}
+.gray6 {
+  position: absolute;
+  left: 400px;
+  top: 1504px;
+  width: 215px; 
+  height: 300px;
+}
+.gray7 {
+  position: absolute;
+  left: 800px;
+  top: 1504px;
+  width: 215px; 
+  height: 300px;
+}
+.gray8 {
+  position: absolute;
+  left: 1200px;
+  top: 1504px;
+  width: 215px; 
+  height: 300px;
+}
+.gray9 {
+  position: absolute;
+  left: 1600px;
+  top: 1504px;
+  width: 215px; 
+  height: 300px;
+}
+.width {
+  margin-top: 30px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+#okno {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  padding-bottom: 130px;
+  border: 3px solid #f7f7f7;
+  border-radius: 10px;
+  color: #000000;
+  display: none;
+  position: absolute;
+  top: -600px;
+  right: 0;
+  bottom: 0;
+  left: -1200px;
+  margin: auto;
+}
+#okno:target {display: block;}
+.close {
+  display: inline-block;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 0 12px;
+  margin: 10px;
+  text-decoration: none;
+  background: #ffffff;
+  font-size: 14pt;
+  cursor:pointer;
+}
+.close:hover {background: #ffffff;;}
